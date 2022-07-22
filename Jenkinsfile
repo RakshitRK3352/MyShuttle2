@@ -19,7 +19,7 @@ pipeline {
         }
         stage('post_deploy') {
             steps {
-                echo 'Deploying....'
+                echo 'Deploying final stage....'
             }
         }
     }
